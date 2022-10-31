@@ -1,6 +1,6 @@
-# Securing Upload File/Image
+# Securing Upload File/Image Sensitive
 
-Tips &amp; tricks to secure every uploaded file/image, this method work in all any programming language, for this example i use `NodeJs` for Back End and `ReactJs` for Front End, if you run app using docker run app first, before worker app and
+Tips &amp; tricks to secure uploaded file/image sensitive, this method work in all any programming language, for this example i use `NodeJs` for Back End and `ReactJs` for Front End, if you run app using docker run app first, before worker app and
 dockerfile.worker metadata from must be match with images container name.
 
 # Environtment Worker
