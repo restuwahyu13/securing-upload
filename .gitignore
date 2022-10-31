@@ -1,0 +1,7 @@
+.env
+dist
+node_modules
+index.txt
+index.js
+client/node_modules
+client/dist
