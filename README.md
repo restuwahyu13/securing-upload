@@ -27,9 +27,9 @@ PG_DBNAME=postgres
 # AWS S3 ENVIRONMENT
 ######################
 S3_ACCESS_KEY='bacc7333f906371767d'
-S3_SECRET_KEY='bacc7333f906371767d'
+S3_SECRET_KEY='a969305c9a3bd2d44d'
 S3_BUCKET_NAME='node'
-S3_REGION='ap-southeast-3'
+S3_REGION='us‑east‑1'
 
 ############################
 # MESSAGE BROKER ENVIRONMENT
