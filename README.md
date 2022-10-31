@@ -27,9 +27,9 @@ PG_DBNAME=postgres
 ######################
 # AWS S3 ENVIRONMENT
 ######################
-S3_ACCESS_KEY='AKIA2YBSL7CRU5X66V4I'
-S3_SECRET_KEY='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'
-S3_BUCKET_NAME='vos-abs'
+S3_ACCESS_KEY='bacc7333f906371767d'
+S3_SECRET_KEY='bacc7333f906371767d'
+S3_BUCKET_NAME='node'
 S3_REGION='ap-southeast-3'
 
 ############################
