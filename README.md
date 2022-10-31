@@ -1,3 +1,3 @@
-# Database Caching
+# Securing Upload File/Image (Coming Soon)
 
-Simple tips and trick how to reduce and speed up your load data from database or third-party api something like that, using redis, serialization and deserialization of data is also very important, to speed up data retrieval from redis, check the image folder to see the difference, run seeder before run this app set env to `development` and run command seeder like this `npm run seed:runmig`, in this tutorial i use msgpack to reduce data size, to save in redis and speed up reading data from redis, check here about [msgpack](https://msgpack.org/).
+Tips &amp; tricks to secure every uploaded file/image, this method work in all any programming language, for this example i use `NodeJs` for Back End and `ReactJs` for Front End.
