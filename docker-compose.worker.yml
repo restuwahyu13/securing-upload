@@ -14,6 +14,22 @@ services:
       timeout: 30s
       retries: 3
       start_period: 15s
+    deploy:
+      endpoint_mode: vip
+      mode: replicated
+      replicas: 3
+      resources:
+        limits:
+          cpus: "2"
+          memory: 2048M
+        reservations:
+          cpus: "1"
+          memory: 1024M
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+        delay: 30s
+        window: 60s
     expose:
       - 4000
     env_file: .env.worker
