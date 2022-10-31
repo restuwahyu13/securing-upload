@@ -1,7 +1,7 @@
 {
   "name": "securing-upload",
   "version": "1.0.0",
-  "description": "Tips & tricks to secure every uploaded file/image.",
+  "description": "Tips & tricks to secure uploaded file/image sensitive.",
   "main": "./dist/main.js",
   "scripts": {
     "ts-bin": "ts-node -r tsconfig-paths/register",
