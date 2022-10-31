@@ -13,7 +13,7 @@ services:
       retries: 3
       start_period: 15s
     ports:
-      - 3000
+      - 4000
     env_file: .env
     depends_on:
       - database

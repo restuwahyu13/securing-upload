@@ -71,5 +71,5 @@ export class Multer {
     done(null, fileName)
   }
 
-  static upload: multer.Multer = multer({ storage: Multer.diskStorage, limits: { fileSize: 5242880 }, fileFilter: Multer.fileFilter })
+  static upload: multer.Multer = multer({ storage: Multer.awsStorage, limits: { fileSize: 5242880 }, fileFilter: Multer.fileFilter })
 }

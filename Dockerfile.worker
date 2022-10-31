@@ -1,0 +1,3 @@
+FROM node-securing-upload
+USER ${USER}
+EXPOSE 4000

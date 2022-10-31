@@ -1,0 +1,19 @@
+version: "3"
+services:
+  ##############################
+  #  WORKER SERVICE ENVIRONMENT
+  ##############################
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    restart: always
+    healthcheck:
+      test: "env | grep SHELL_SESSION_ID"
+      interval: 60s
+      timeout: 30s
+      retries: 3
+      start_period: 15s
+    expose:
+      - 4000
+    env_file: .env.worker
